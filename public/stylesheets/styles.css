@@ -63,6 +63,8 @@ hr {
 
 .article .date {
     color: #666;
+    margin: 0 auto;
+    text-align: right;
 }
 
 .article .tags a {
@@ -89,3 +91,22 @@ hr {
     background: #F8F8F8;
     padding: 3px 5px;
 }
+
+/*
+ * Customizations
+ */
+
+.header .title {
+  font-size: 3em; line-height: 1; margin-top: 0.5em; margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.header .description {
+  font-size: 1.5em; line-height: 1; margin-top: 0.5em; margin-bottom: 1em;
+}
+
+.article .date {
+  margin: 0 auto;
+  text-align: right;
+}
+

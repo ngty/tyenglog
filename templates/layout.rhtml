@@ -5,17 +5,22 @@
     <meta http-equiv="Content-Language" content="English" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.rss" />
-    <link rel="stylesheet" media="screen" type="text/css" href="/assets/styles.css" />
-    <link rel="stylesheet" media="print" type="text/css" href="/assets/print.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="/stylesheets/styles.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="/stylesheets/print.css" />
   </head>
   <body>
     <div class="container">
-      <h3><a href="/"><%= @blog.title %></a> - <%= @blog.description %></h3>
+
+      <div class="header">
+        <div class="title"><%= @blog.title %></div>
+        <div class="description">&nbsp; ~ <%= @blog.description %></div>
+      </div>
 
       <div class="menu">
-        <%= link_to 'Home', '/' %> -
-        <%= link_to 'About', '/about' %> -
-        <%= link_to 'Subscribe RSS', '/index.rss' %>
+        <%= link_to 'Index', '/' %> &nbsp; | &nbsp;
+        <%= link_to 'Misc', "/categories/misc" %> &nbsp; | &nbsp;
+        <%= link_to 'Ruby', "/categories/ruby" %> &nbsp; | &nbsp;
+        <%= link_to 'Rss', '/index.rss' %>
       </div>
 
       <%= @content %>
@@ -23,20 +28,12 @@
       <hr/>
 
       <p>
-	<h4>Categories</h4>
-	<ul>
-	  <li><%= link_to 'Ruby', '/categories/ruby' %></li>
-	  <li><%= link_to 'Javascript', '/categories/javascript' %></li>
-	</ul>
-      </p>
-
-      <p>
-	<h4>Archive</h4>
-	<ul>
+        <h4>Archive</h4>
+        <ul>
           <% for year, month in @blog.archives %>
             <li><%= archive_link year, month %></li>
           <% end %>
-	</ul>
+        </ul>
       </p>
 
     </div>

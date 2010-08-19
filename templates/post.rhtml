@@ -2,11 +2,11 @@
 
   <h1><%= @post.title %></h1>
 
-  <div class="date">
-    <%= human_date @post.date %>
-  </div>
-
   <%= @post.body_html %>
+
+  <div class="date">
+    ~ <%= human_date @post.date %>
+  </div>
 
   <p>
     <% if @post.category %>
