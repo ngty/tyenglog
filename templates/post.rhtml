@@ -1,0 +1,21 @@
+<div class="article">
+
+  <h1><%= @post.title %></h1>
+
+  <div class="date">
+    <%= human_date @post.date %>
+  </div>
+
+  <%= @post.body_html %>
+
+  <p>
+    <% if @post.category %>
+      Posted in category <%= link_to @post.category, "/categories/#{urlify @post.category}" %>.
+    <% end %>
+
+    <% unless @post.tag_list.empty? %>
+      Tagged with <%= @post.tag_list.map {|tag| link_to tag, "/tags/#{tag}" }.join(', ') %>.
+    <% end %>
+  </p>
+  
+</div>
