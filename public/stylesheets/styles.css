@@ -123,7 +123,6 @@ code, .highlight .CodeRay {
 
 #disqus_thread { color: black; }
 #disqus_thread a { color: red; }
-#disqus_thread h3 { font-weight: bold; }
 .dsq-by { display: none; }
 .dsq-dc-logo { display: none; }
 .dsq-media-link { display: none; }
@@ -136,3 +135,4 @@ code, .highlight .CodeRay {
   font-style:inherit;
 }
 
+#disqus_thread h3 { font-weight: bold; }
