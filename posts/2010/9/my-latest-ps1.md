@@ -16,6 +16,8 @@ Here's how it looks:
 
 To achieve the above, here's a fragment of my *~/.bashrc*:
 
+    @@shell
+
     # Retrieve the current git branch
     # See http://techdebug.com/blog/2009/11/28/git-branch-name-in-your-bash-prompt
     parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/' ; }
