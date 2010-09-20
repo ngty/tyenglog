@@ -86,7 +86,7 @@ core installation. For the case of JRuby, we can use this unique locator to achi
 we have 1.9.*. But that ONLY solves half of the problem for JRuby, and non for Ruby-1.8.7.
 
 In order to capture created-on-the-fly-ness of the proc, i introduced
-Proc#created_on_the_fly to store the flag, here's the solution i've used:
+Proc#created\_on\_the\_fly to store the flag, here's the solution i've used:
 
     @@ruby
 
