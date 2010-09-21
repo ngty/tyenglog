@@ -29,10 +29,10 @@ title: Resume
 
    Mainly worked on personal open source projects, plus helping up friends':
 
-   * [rails-bestpractices.com](http://rails-bestpractices.com/) on rspec & cucumber stuff,
+   * [rails-bestpractices.com](http://rails-bestpractices.com/) on specs & features,
    source code available @ [github](http://github.com/flyerhzm/rails-bestpractices.com)
 
-   * blah blah
+   * [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
 
 0. **[Vi8e Interative](http://www.vi8e.com), Software Engineer** (Sep 2009 ~ Jun 2010)
 
@@ -81,6 +81,11 @@ title: Resume
 
      * <p>Recruited, trained and lead the Shanghai IT (software development & support, and server
      administration) team, establishing a small team from scratch</p>
+
+## Presentations
+
+0. [Introducing BDD with cucumber to my fellow SG
+geeks](http://www.slideshare.net/NgTzeYang/the-lazy-developers-guide-to-bdd-with-cucumber) @ geekcampsg 2009
 
 ## Open Source Projects
 
