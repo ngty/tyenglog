@@ -27,16 +27,17 @@
 
       <%= @content %>
 
-      <hr/>
-
-      <p>
-        <h4>Archive</h4>
-        <ul>
-          <% for year, month in @blog.archives %>
-            <li><%= archive_link year, month %></li>
-          <% end %>
-        </ul>
-      </p>
+      <% unless (@page.hide_archive? rescue nil) %>
+        <hr/>
+        <p>
+          <h4>Archive</h4>
+          <ul>
+            <% for year, month in @blog.archives %>
+              <li><%= archive_link year, month %></li>
+            <% end %>
+          </ul>
+        </p>
+      <% end %>
 
     </div>
 
