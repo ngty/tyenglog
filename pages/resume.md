@@ -84,7 +84,7 @@ title: Resume
 
 ## Open Source Projects
 
-These are my tiny bit of contributions to the open source community:
+My tiny bit of contributions to the open source community, to make the world a better place:
 
 0. [**CrossStub:**](http://github.com/ngty/cross-stub)
 Existing stubbing/mocking frameworks only support in-process stubbing, this does not work for the
