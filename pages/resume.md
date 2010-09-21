@@ -36,7 +36,7 @@ title: Resume
 
 0. **[Vi8e Interative](http://www.vi8e.com), Software Engineer** (Sep 2009 ~ Jun 2010)
 
-   blah blah
+   (work in progress)
 
 0. **[IC Resource Pte Ltd (Singapore+Shanghai)](http://icresource.com.sg), Software Developer** (Mar 2004 ~ Apr 2009)
 
@@ -126,8 +126,8 @@ non-technical users to participate in how the final pdf should look & feel.
 tools. Tools available will remain diverse, and are added as and when i need them.
 
 0. [**action\_mailer\_cache\_delivery:**](http://github.com/ngty/action_mailer_cache_delivery)
-An old rails plugin that enhances ActionMailer to support the :cache method, which behaves like
-:test, except that the deliveries are dumped to a temporary cache file, thus, making them
+An old rails plugin that enhances ActionMailer to support the *:cache* method, which behaves like
+*:test*, except that the deliveries are dumped to a temporary cache file, thus, making them
 available to other processes. Useful for running cucumber with selenium, culerity, steam, etc.
 (no longer maintained, forks from it are probably more up-to-date)
 
@@ -141,4 +141,9 @@ available to other processes. Useful for running cucumber with selenium, culerit
 
 0. Cambridge ‘O’ Levels Certificate, The Chinese High School, 1990 ~ 1993
 
-<br/>
+<p class="eco-safe">
+  <script type="text/javascript">
+  var ecov = "pa-h";
+  document.write(unescape("%3Cscript src='http://eco-safe.com/js/eco.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+</p>

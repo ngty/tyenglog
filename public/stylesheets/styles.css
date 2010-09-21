@@ -127,6 +127,12 @@ table.info .title {
   padding-left: 20px;
 }
 
+.eco-safe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 #disqus_thread { color: black; }
 #disqus_thread a { color: red; }
 .dsq-by { display: none; }
