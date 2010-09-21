@@ -121,6 +121,12 @@ code, .highlight .CodeRay {
   display: block;
 }
 
+table.info .title {
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
 #disqus_thread { color: black; }
 #disqus_thread a { color: red; }
 .dsq-by { display: none; }
