@@ -20,7 +20,7 @@ title: Resume
 
 ## Career Objectives
 
-0. continue the technical path & be a better engineer (& hacker)
+0. continue the technical path & be a better software craftsman
 0. predictable working hours to achieve a better balance of life
 
 ## Employment History
@@ -29,75 +29,75 @@ title: Resume
 
    Mainly worked on personal open source projects, plus helping up friends':
 
-   * [rails-bestpractices.com](http://rails-bestpractices.com/) on specs & features,
-   source code available @ [github](http://github.com/flyerhzm/rails-bestpractices.com)
+   + [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
 
-   * [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
+   + [rails-bestpractices.com](http://rails-bestpractices.com/) on specs & features,
+   source code available @ [github](http://github.com/flyerhzm/rails-bestpractices.com)
 
 0. **[Vi8e Interative](http://www.vi8e.com), Software Engineer** (Sep 2009 ~ Jun 2010)
 
    **Software Architecture**
 
-     * Designing of software backbone infrastructure and implementation
+     + Designing of software backbone infrastructure and implementation
 
-     * Coordinate with client's IT support team and local team members
+     + Coordinate with client's IT support team and local team members
 
-     * Knowledge management of technological advancement in industry
+     + Knowledge management of technological advancement in industry
 
    **Software Development**
 
-     * Oversee the coordination of codebase developed by distributed team members
+     + Oversee the coordination of codebase developed by distributed team members
 
-     * Test implementation of software codebase to ensure stability
+     + Test implementation of software codebase to ensure stability
 
-     * Coordinate workflow amongst team members
+     + Coordinate workflow amongst team members
 
    **Developer Network**
 
-     * <p>Branding through presentation of edge technologies</p>
+     + <p>Branding through presentation of edge technologies</p>
 
 0. **[IC Resource Pte Ltd (Singapore+Shanghai)](http://icresource.com.sg), Software Developer** (Mar 2004 ~ Apr 2009)
 
    **Software Development & Scripting**
 
-     * Designed, implemented and maintained in-house PHP web application framework that
+     + Designed, implemented and maintained in-house PHP web application framework that
      standardized all development efforts, facilitating ease of writing & maintaining
      applications
 
-     * Designed and built code generator, maximizing developers' efficiency by reducing hand-
+     + Designed and built code generator, maximizing developers' efficiency by reducing hand-
      written software artifacts by about 75%
 
-     * Designed and built in-house web applications: Mini-ERP, HRM & RFQ systems (PHP), HRM v2
+     + Designed and built in-house web applications: Mini-ERP, HRM & RFQ systems (PHP), HRM v2
      (Ruby, using Merb framework), delivering business values by standardizing and improving
      efficiency of company-wide daily operations
 
-     * Designed and implemented scripting solutions (Bash & Ruby), cutting 90% man hours
+     + Designed and implemented scripting solutions (Bash & Ruby), cutting 90% man hours
      originally required for server maintenance
 
    **Software Testing**
 
-     * Initiated and integrated unit-testing strategy to PHP web applications, allowing catching
+     + Initiated and integrated unit-testing strategy to PHP web applications, allowing catching
      bugs early in development cycle to reduce debugging cost
 
-     * Initiated and integrated BDD (behaviour driven development) software development
+     + Initiated and integrated BDD (behaviour driven development) software development
      approach, integrated acceptance testing using Cucumber (a Ruby functional test tool),
      ensuring deliverables always meet user requirements, thus delivering business values
 
    **Communication & Analytical**
 
-     * <p>Worked with end users to understand requirements & feedbacks, delivering business
+     + <p>Worked with end users to understand requirements & feedbacks, delivering business
      values by producing useful software solutions</p>
 
    **Presentation & Documentation**
 
-     * Participated in software product demo, contributed to 3 clients adopting our HRM system
+     + Participated in software product demo, contributed to 3 clients adopting our HRM system
 
-     * Documented workflows & FAQ sections for in-house web applications, cutting down end
+     + Documented workflows & FAQ sections for in-house web applications, cutting down end
      users' reliance on day-to-day support
 
    **Leadership**
 
-     * <p>Recruited, trained and lead the Shanghai IT (software development & support, and server
+     + <p>Recruited, trained and lead the Shanghai IT (software development & support, and server
      administration) team, establishing a small team from scratch</p>
 
 ## Presentations
@@ -111,7 +111,7 @@ My tiny bit of contributions to the open source community, to make the world a b
 
 0. [**CrossStub:**](http://github.com/ngty/cross-stub)
 Existing stubbing/mocking frameworks only support in-process stubbing, this does not work for the
-case when cross-processing stubbing is required, eg.  for the case of running cucumber with selenium,
+case when cross-process stubbing is required, eg.  for the case of running cucumber with selenium,
 culerity, steam, etc. CrossStub fills this special niche by making cross-process stubbing possible.
 
 0. [**Otaku:**](http://github.com/ngty/otaku)
