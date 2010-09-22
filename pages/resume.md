@@ -36,7 +36,25 @@ title: Resume
 
 0. **[Vi8e Interative](http://www.vi8e.com), Software Engineer** (Sep 2009 ~ Jun 2010)
 
-   (work in progress)
+   **Software Architecture**
+
+     * Designing of software backbone infrastructure and implementation
+
+     * Coordinate with client's IT support team and local team members
+
+     * Knowledge management of technological advancement in industry
+
+   **Software Development**
+
+     * Oversee the coordination of codebase developed by distributed team members
+
+     * Test implementation of software codebase to ensure stability
+
+     * Coordinate workflow amongst team members
+
+   **Developer Network**
+
+     * <p>Branding through presentation of edge technologies</p>
 
 0. **[IC Resource Pte Ltd (Singapore+Shanghai)](http://icresource.com.sg), Software Developer** (Mar 2004 ~ Apr 2009)
 
