@@ -21,7 +21,7 @@ title: Resume
 ## Career Objectives
 
 0. continue the technical path & be a better engineer (& hacker)
-0. more predictable working hours to achieve a better balance of life
+0. predictable working hours to achieve a better balance of life
 
 ## Employment History
 
