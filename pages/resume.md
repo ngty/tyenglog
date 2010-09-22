@@ -40,7 +40,7 @@ title: Resume
 
 0. **[IC Resource Pte Ltd (Singapore+Shanghai)](http://icresource.com.sg), Software Developer** (Mar 2004 ~ Apr 2009)
 
-   **Software Development & Scripting Skills**
+   **Software Development & Scripting**
 
      * Designed, implemented and maintained in-house PHP web application framework that
      standardized all development efforts, facilitating ease of writing & maintaining
@@ -56,7 +56,7 @@ title: Resume
      * Designed and implemented scripting solutions (Bash & Ruby), cutting 90% man hours
      originally required for server maintenance
 
-   **Software Testing Skills**
+   **Software Testing**
 
      * Initiated and integrated unit-testing strategy to PHP web applications, allowing catching
      bugs early in development cycle to reduce debugging cost
@@ -65,19 +65,19 @@ title: Resume
      approach, integrated acceptance testing using Cucumber (a Ruby functional test tool),
      ensuring deliverables always meet user requirements, thus delivering business values
 
-   **Communication & Analytical Skills**
+   **Communication & Analytical**
 
      * <p>Worked with end users to understand requirements & feedbacks, delivering business
      values by producing useful software solutions</p>
 
-   **Presentation & Documentation Skills**
+   **Presentation & Documentation**
 
      * Participated in software product demo, contributed to 3 clients adopting our HRM system
 
      * Documented workflows & FAQ sections for in-house web applications, cutting down end
      users' reliance on day-to-day support
 
-   **Leadership Skills**
+   **Leadership**
 
      * <p>Recruited, trained and lead the Shanghai IT (software development & support, and server
      administration) team, establishing a small team from scratch</p>
