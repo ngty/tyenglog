@@ -128,9 +128,14 @@ table.info .title {
 }
 
 .eco-safe {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
+  float: right;
+}
+
+.printable {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -15px;
+  text-align: right;
 }
 
 #disqus_thread { color: black; }

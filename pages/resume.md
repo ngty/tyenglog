@@ -158,10 +158,3 @@ available to other processes. Useful for running cucumber with selenium, culerit
 0. Cambridge ‘A’ Levels Certificate, Hwa Chong Junior College, 1994 ~ 1995
 
 0. Cambridge ‘O’ Levels Certificate, The Chinese High School, 1990 ~ 1993
-
-<p class="eco-safe">
-  <script type="text/javascript">
-  var ecov = "pa-h";
-  document.write(unescape("%3Cscript src='http://eco-safe.com/js/eco.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-</p>

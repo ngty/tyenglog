@@ -11,23 +11,37 @@
   <body>
     <div class="container">
 
-      <div class="header">
-        <div class="title"><%= @blog.title %></div>
-        <div class="description">&nbsp; ~ <%= @blog.description %></div>
-      </div>
+      <% unless params['printable'] %>
 
-      <div class="menu">
-        <%= link_to 'Index', '/' %> &nbsp; | &nbsp;
-        <%= link_to 'Misc', "/categories/misc" %> &nbsp; | &nbsp;
-        <%= link_to 'Ruby', "/categories/ruby" %> &nbsp; | &nbsp;
-        <%= link_to 'Old Posts', "http://tyenglog.blogspot.com" %> &nbsp; | &nbsp;
-        <%= link_to 'Resume', "/resume" %> &nbsp; | &nbsp;
-        <%= link_to 'Rss', '/index.rss' %>
-      </div>
+        <div class="header">
+          <div class="title"><%= @blog.title %></div>
+          <div class="description">&nbsp; ~ <%= @blog.description %></div>
+        </div>
+
+        <div class="menu">
+          <%= link_to 'Index', '/' %> &nbsp; | &nbsp;
+          <%= link_to 'Misc', "/categories/misc" %> &nbsp; | &nbsp;
+          <%= link_to 'Ruby', "/categories/ruby" %> &nbsp; | &nbsp;
+          <%= link_to 'Old Posts', "http://tyenglog.blogspot.com" %> &nbsp; | &nbsp;
+          <%= link_to 'Resume', "/resume" %> &nbsp; | &nbsp;
+          <%= link_to 'Rss', '/index.rss' %>
+        </div>
+
+      <% else %>
+
+        <p class="eco-safe">
+          <script type="text/javascript">
+            var ecov = "sv";
+            document.write(unescape("%3Cscript src='http://eco-safe.com/js/eco.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+        </p>
+
+      <% end %>
 
       <%= @content %>
 
-      <% unless (@page.hide_archive? rescue nil) %>
+      <% unless params['printable'] %>
+
         <hr/>
         <p>
           <h4>Archive</h4>
@@ -37,6 +51,7 @@
             <% end %>
           </ul>
         </p>
+
       <% end %>
 
     </div>

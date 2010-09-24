@@ -1,5 +1,9 @@
-<% @page.instance_eval { def hide_archive?; true; end } %>
 <h1>&gt;&gt; <%= @page.title %></h1>
+
+<%# hardcoded for now %>
+<% unless params['printable'] %>
+  <p class="printable"><a href="/resume?printable=1" target="_printable">(Printable Version)</a></p>
+<% end %>
 
 <div class="article">
   <%= @page.body_html %>
