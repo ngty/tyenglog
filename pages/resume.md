@@ -83,7 +83,7 @@ title: Resume
      approach, integrated acceptance testing using Cucumber (a Ruby functional test tool),
      ensuring deliverables always meet user requirements, thus delivering business values
 
-   **Communication & Analytical**
+   **Communication & Analysis**
 
      + <p>Worked with end users to understand requirements & feedbacks, delivering business
      values by producing useful software solutions</p>
