@@ -1,7 +1,7 @@
 --- 
 title: Resume
 ---
-## Basic Info
+## <a id="s1">Basic Info</a>
 
 <table class="info">
   <tr>
@@ -18,12 +18,12 @@ title: Resume
   </tr>
 </table><br/>
 
-## Career Objectives
+## <a id="s2">Career Objectives</a>
 
 0. continue the technical path & be a better software craftsman
 0. predictable working hours to achieve a better balance of life
 
-## Employment History
+## <a id="s3">Employment History</a>
 
 0. **Free & Easy Hacking** (Jul 2010 ~ Now)
 
@@ -100,12 +100,12 @@ title: Resume
      + <p>Recruited, trained and lead the Shanghai IT (software development & support, and server
      administration) team, establishing a small team from scratch</p>
 
-## Presentations
+## <a id="s4">Presentations</a>
 
 0. [Introducing BDD with cucumber to my fellow SG
 geeks](http://www.slideshare.net/NgTzeYang/the-lazy-developers-guide-to-bdd-with-cucumber) @ geekcampsg 2009
 
-## Open Source Projects
+## <a id="s5">Open Source Projects</a>
 
 My tiny bit of contributions to the open source community, to make the world a better place:
 
@@ -149,7 +149,7 @@ An old rails plugin that enhances ActionMailer to support the *:cache* method, w
 available to other processes. Useful for running cucumber with selenium, culerity, steam, etc.
 (no longer maintained, forks from it are probably more up-to-date)
 
-## Education
+## <a id="s6">Education</a>
 
 0. Sun Certified Programmer for Java 2 Platform, Sun Microsystems, Oct 2005
 

@@ -131,10 +131,17 @@ table.info .title {
   float: right;
 }
 
+.sections {
+  position:fixed;
+  top:200px;
+  left:50px;
+}
+
 .printable {
   padding: 0px;
   margin: 0px;
   margin-top: -15px;
+  margin-bottom: -15px;
   text-align: right;
 }
 
