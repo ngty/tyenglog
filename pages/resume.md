@@ -27,12 +27,8 @@ title: Resume
 
 0. **Free & Easy Hacking** (Jul 2010 ~ Now)
 
-   Mainly worked on personal open source projects, plus helping up friends':
-
-   + [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
-
-   + [rails-bestpractices.com](http://rails-bestpractices.com/) on specs & features,
-   source code available @ [github](http://github.com/flyerhzm/rails-bestpractices.com)
+   Mainly worked on personal open source projects, plus helping up friend's
+   [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
 
 0. **[Vi8e Interative](http://www.vi8e.com), Software Engineer** (Sep 2009 ~ Jun 2010)
 
