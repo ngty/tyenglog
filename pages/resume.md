@@ -139,6 +139,14 @@ non-technical users to participate in how the final pdf should look & feel.
 "GJ" =~ "工具" (tools). Gjman is my neighbourhood friendly handyman with some useful & well-tested
 tools. Tools available will remain diverse, and are added as and when i need them.
 
+0. [**Goenka:**](http://github.com/ngty/goenka)
+A work in progress weekend hacking project. Access of [picasa web album](http://picasaweb.google.com)
+in china is terrible (well, almost impossible without a proxy), yet i need a convenient way to share
+photos with my families in both Singapore & China, and so far, i've been very comfortable with
+the native [*picasa app*](http://picasa.google.com/linux/). My solution is to have a commandline
+tool to push my local picasa albums to [*flickr*](http://www.flickr.com), call it a cheater's way
+i guess.
+
 0. [**action\_mailer\_cache\_delivery:**](http://github.com/ngty/action_mailer_cache_delivery)
 An old rails plugin that enhances ActionMailer to support the *:cache* method, which behaves like
 *:test*, except that the deliveries are dumped to a temporary cache file, thus, making them
