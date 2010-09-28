@@ -21,36 +21,41 @@ title: Resume
 ## <a id="s2">Career Objectives</a>
 
 0. continue the technical path & be a better software craftsman
-0. predictable working hours to achieve a better balance of life
+0. predictable working hours to achieve a better work & life balance
 
 ## <a id="s3">Employment History</a>
 
 0. **Free & Easy Hacking** (Jul 2010 ~ Now)
 
-   Mainly worked on personal open source projects, plus helping up friend's
-   [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
+   Mainly worked on personal <a href="#s5">open source projects</a>, plus helping up
+   friend's [singaporebrides.com](http://featured.singaporebrides.com) on specs & features
 
 0. **[Vi8e Interative](http://www.vi8e.com), Software Engineer** (Sep 2009 ~ Jun 2010)
 
-   **Software Architecture**
+   In the course of 10 months in Vi8e, I've worked on a
+   [school infomation management system](http://en.wikipedia.org/wiki/Student_information_system)
+   for [City College](http://www.citycollege.edu.sg), involving:
 
-     + Designing of software backbone infrastructure and implementation
+   **Software Development (Rails)**
 
-     + Coordinate with client's IT support team and local team members
+     + Participating in pair programming (remote & local), improves knowledge sharing, & ensuring
+       code quality & features delivery
 
-     + Knowledge management of technological advancement in industry
+     + Driving development effort using a hybrid of BDD (cucumber) & TDD (testunit), taking
+       responsibility to ensure adequate code coverage, contributing to codebase stability &
+       maintainability
 
-   **Software Development**
+     + Driving code cleaning exercise to adhere to common best practices, contributing to
+       cleaner & more maintainable codebase
 
-     + Oversee the coordination of codebase developed by distributed team members
+     + Inovating & implementing solutions where no existing solutions can meet the requirements,
+       [Clamsy](http://github.com/ngty/clamsy) & [CrossStub](http://github.com/ngty/cross-stub)
+       were written as a result
 
-     + Test implementation of software codebase to ensure stability
+   **Requirements Analysis**
 
-     + Coordinate workflow amongst team members
-
-   **Developer Network**
-
-     + <p>Branding through presentation of edge technologies</p>
+     + <p>Working with clients to understand requirements & feedbacks, proposing & discussing
+       solutions and/or workarounds</p>
 
 0. **[IC Resource Pte Ltd (Singapore+Shanghai)](http://icresource.com.sg), Software Developer** (Mar 2004 ~ Apr 2009)
 
@@ -122,12 +127,12 @@ which consists of (1) the code block defining it, and (2) the binding of local, 
 global variables. SerializableProc takes care of (1) & (2) under the hood.
 
 0. [**Sourcify:**](http://github.com/ngty/sourcify)
-I need *Proc#to_source*, and i need it soon. The sad truth is,
+I need *Proc#to_source*, and I need it soon. The sad truth is,
 [ruby core won't be supporting it soon](http://redmine.ruby-lang.org/issues/show/2080).
 [*ParseTree*](http://github.com/seattlerb/parsetree) &
 [*RubyParser*](http://github.com/seattlerb/ruby_parser) each has its short-comings to fulfill
 my needs. I need a solution that should work for all rubies, and supports fetching of proc code
-on the fly. Thus, i wrote sourcify. As a bonus, sourcify also provides *Proc#source_location* &
+on the fly. Thus, I wrote sourcify. As a bonus, sourcify also provides *Proc#source_location* &
 *Proc#to_sexp*.
 
 0. [**Clamsy:**](http://github.com/ngty/clamsy)
@@ -137,15 +142,15 @@ non-technical users to participate in how the final pdf should look & feel.
 
 0. [**Gjman:**](http://github.com/ngty/gjman)
 "GJ" =~ "工具" (tools). Gjman is my neighbourhood friendly handyman with some useful & well-tested
-tools. Tools available will remain diverse, and are added as and when i need them.
+tools. Tools available will remain diverse, and are added as and when I need them.
 
 0. [**Goenka:**](http://github.com/ngty/goenka)
 A work in progress weekend hacking project. Access of [picasa web album](http://picasaweb.google.com)
-in china is terrible (well, almost impossible without a proxy), yet i need a convenient way to share
-photos with my families in both Singapore & China, and so far, i've been very comfortable with
+in china is terrible (well, almost impossible without a proxy), yet I need a convenient way to share
+photos with my family members in both Singapore & China, and so far, I've been very comfortable with
 the native [*picasa app*](http://picasa.google.com/linux/). My solution is to have a commandline
 tool to push my local picasa albums to [*flickr*](http://www.flickr.com), call it a cheater's way
-i guess.
+I guess.
 
 0. [**action\_mailer\_cache\_delivery:**](http://github.com/ngty/action_mailer_cache_delivery)
 An old rails plugin that enhances ActionMailer to support the *:cache* method, which behaves like
